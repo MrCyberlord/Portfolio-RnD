@@ -15,18 +15,10 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.iconContainer}>
-        <a
-          href="https://twitter.com/MrCyberlord"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faTwitter} className={styles.icon1} />
         </a>
-        <a
-          href="https://www.linkedin.com/in/theamanjain/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} className={styles.icon2} />
         </a>
         <a

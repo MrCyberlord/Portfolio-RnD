@@ -11,13 +11,10 @@ const AboutMe = () => {
           that are engaging and aesthetically pleasing. I am enthusiastic about
           transforming <span className={styles.ideas}>ideas</span> into{" "}
           <span className={styles.digitalProduct}>digital products</span>. I
-          have an Engineering degree in Electronics and Telecommunications, but
-          I followed my heart and became a Software Engineer. I have over 1 year
-          of experience in software development. I write{" "}
-          <span className={styles.clean}>clean and efficient code </span>
+          have an Engineering degree in Electronics and Telecommunications. I
+          write <span className={styles.clean}>clean and efficient code </span>
           that conveys the most satisfying, effective and visually appealing
-          experiences for users. Apart from technology, I am into fitness and
-          love watching sci-fi movies & series.
+          experiences for users.
         </p>
       </div>
     </section>
