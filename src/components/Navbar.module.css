@@ -1,0 +1,130 @@
+.navList {
+    background-color: #1E293B;
+    display: flex;
+    padding: 0.9rem 0;  /* Adjust the padding to increase the navbar height */
+    justify-content: flex-end;
+    position: sticky;
+    top: 0.1px;
+    height: 1.7rem;
+}
+
+.navList .regularNavbar {
+    display: flex;
+    list-style: none;
+    margin-right: 0.5rem;
+}
+
+.navList .regularNavbar li {
+    margin: 0 0.5rem;   /* Adjust this value for more or less space */
+}
+
+.navList .regularNavbar li a {
+    color:#1E293B ;
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-decoration:none;
+    padding: 0.2rem 0.5rem; /* Adjust padding to control the size of the capsules */
+    border-radius: 0.4rem; /* This creates the capsule-like rounded edges */
+    background-color: #6f8cbb; 
+    transition: ease 0.1s;  /* This adds a smooth transition effect when the background color changes */
+}  
+
+.navList .regularNavbar li a:hover {
+    color: #8599B6;
+    background-color:#274068; /* Change background color on hover */
+    cursor: pointer;
+}
+
+
+
+/* Hamburger styles */
+.hamburger {
+    display: none;  /* initially hidden */
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+
+
+                         /* MOBILE sTYLES */
+@media only screen and (max-width: 600px) {
+
+    .navList {
+        background-color: #1E293B;
+        display: flex;
+        padding: 0.2rem 0;  /* Adjust the padding to increase the navbar height */
+        justify-content: flex-end;
+        top: 0.1px;
+        height: 3rem;
+        
+    }
+
+    .showMenu {
+        display: flex;  /* Show menu when the hamburger icon is clicked */
+        flex-direction: column;
+        align-items: center;
+        width: 15%;
+    }
+
+    .hamburger {
+        display:inline-flex;  /* Show hamburger icon on mobile */
+        align-self: center;
+        color: #6f8cbb; 
+        font-size: 3rem;
+        margin-right: 0.2rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .navList .regularNavbar {
+        display: none; 
+       
+    }
+
+                      /* CSS for mobile view*/
+
+
+
+.navList .showMenu {
+    display: flex;
+    list-style:none;
+    margin-right: 0.2rem;
+
+    flex-direction: column;
+    align-items: flex-end;
+    width: 10%;
+}
+
+.navList .showMenu li {
+    margin: 0 0rem;   /* Adjust this value for more or less space */
+    height: 3.4rem;
+    width: 14rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.navList .showMenu li a {
+    color:#1E293B ;
+    font-weight: bold;
+    font-size: 2.1rem;
+    text-decoration:none;
+    padding: 0.2rem 0.4rem; /* Adjust padding to control the size of the capsules */
+    border-radius: 0.2rem; /* This creates the capsule-like rounded edges */
+    background-color: #6f8cbb; 
+    transition: ease 0.1s;  /* This adds a smooth transition effect when the background color changes */
+    width: 15rem;
+}
+  
+.navList .showMenu li a:hover {
+    color: #8599B6;
+    background-color:#274068; /* Change background color on hover */
+    cursor: pointer;
+}
+
+
+                      
+                      
+}
+
+

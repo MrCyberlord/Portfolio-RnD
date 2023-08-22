@@ -1,0 +1,41 @@
+.projectSection {
+    min-height: 38rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #4f6383;
+    font-weight: bold;
+}
+
+.projectGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} 
+
+
+@media only screen and (max-width: 600px) {
+
+    .projectSection {
+        padding: 1rem; /* Reduce the padding slightly */
+        min-height: 38rem;
+    }
+
+    .title {
+        font-size: 2.5rem; /* Reduce the font size */
+        margin-bottom: 2rem; /* Adjust the margin */
+    }
+
+    .projectGrid {
+        grid-template-columns: 1fr; /* Make it a single column grid */
+    }
+
+}
+
+

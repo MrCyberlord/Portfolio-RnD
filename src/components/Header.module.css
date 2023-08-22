@@ -1,0 +1,96 @@
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 38rem;
+}
+
+.headerClass {
+  font-size: 2rem;
+}
+
+.lineContainer {
+  text-align: left;
+  font-size: 3rem;
+  color: #acc7ea;
+  font-weight: bolder;
+}
+
+.handIcon {
+  transform-origin: 50% 100%;
+  animation: wavingHand 1s infinite;
+  display: inline-block;
+  margin-right: 1rem;
+  color: #75a2de;
+}
+
+@keyframes wavingHand {
+  0% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(5deg);
+  }
+}
+
+.text {
+    position: relative;
+    font-size: 3rem;
+    font-weight: bold;
+    color: transparent;
+    background-image: linear-gradient(to right, #446289 50%, transparent 50%);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+
+    animation: animate 20s linear infinite alternate;
+}
+
+  
+@keyframes animate {
+    0% {
+      background-position: 100% 0;
+    }
+    30% {  /* Adjust this percentage based on how fast you want the reveal animation */
+      background-position: 0 0;
+    }
+    90% {  /* This will make the text stay fully visible from 20% to 80% of the animation duration */
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+  header {
+    min-height: 42rem;
+    padding: 0 0.5rem;
+    align-items: center;
+}
+
+  .lineContainer {
+    font-size: 1.8rem; 
+    padding: 0rem;
+  }
+
+  .handIcon {
+    margin-right: 0.5rem; 
+    padding: 0;
+  }
+
+  .text {
+    font-size: 1.8rem; 
+    margin-bottom:0;
+  }
+}
+

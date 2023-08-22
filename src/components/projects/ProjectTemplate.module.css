@@ -1,0 +1,76 @@
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 7rem;
+}    
+
+.projectTitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #88a9df;
+    text-align: center;
+}
+
+ .projectImage {
+    width: 100%;
+    max-width: 25rem;
+    height: 14rem;
+    margin-bottom: 0.5rem;
+    border: solid 0.2rem #42597e;
+    border-radius: 0.5rem;
+} 
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.demoButton, .gitButton {
+    padding: 0.2rem 0.5rem;
+    border: none;
+    border-radius: 0.3rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #2e3f5a;
+    color: #88a9df;
+    transition: background-color 0.3s;
+}
+
+.demoButton:hover {
+    background-color: #3f51b5;
+    color: #88a9df;
+}
+
+.gitButton:hover {
+    background-color: #358d38;
+    color: #7cdb7f;;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .projectCard {
+        margin: 1.4rem 1.8rem; /* Reduce the left and right margin */
+    }
+
+    .projectTitle {
+        font-size: 1.8rem; /* Reduce the font size */
+    }
+
+    .projectImage {
+        max-width: 100%; /* Allow the image to expand fully */
+        height: 12rem; /* Keep the image aspect ratio */
+    }
+
+    .demoButton, .gitButton {
+        margin-right: 1rem;
+        margin-bottom: 0.5rem; /* Add some bottom margin */
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+}

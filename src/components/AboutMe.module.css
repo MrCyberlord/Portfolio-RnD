@@ -1,0 +1,89 @@
+ .aboutMe {
+  display: flex;
+  min-height: 38rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+ 
+ .aboutMeHeading {
+   color: #4f6383;
+   font-size: 3rem;
+   margin-bottom: 3rem;
+   animation: changeColor 5s infinite;
+}
+
+  @keyframes changeColor {
+    0% {
+      color:#446289 ;
+    }
+    50% {
+      color: #6e809d ;
+    }
+    100% {
+      color: #446289 ;
+    }
+  }
+
+.aboutMeIntro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10rem;
+    font-size: 2rem;
+    font-family: Verdana;
+    color: #aec0d5;
+} 
+
+
+.digitalProduct {
+  animation: digitalColors 5s infinite;
+  font-size: 2.1rem;
+}
+
+.clean {
+  color: rgb(113, 113, 230);
+}
+
+
+@keyframes digitalColors {
+  0% {color: rgb(92, 136, 216);}
+  25% {color: rgb(95, 95, 197);}
+  50% {color: rgb(148, 95, 205);}
+  75% {color: rgb(138, 147, 203);}
+  100% {color: rgb(92, 136, 216);}
+}
+
+.ideas {
+  animation: ideaColors 4s infinite;
+}
+
+@keyframes ideaColors {
+0% {color:  rgb(141, 177, 245);}
+50% {color:  rgb(73, 128, 231);}
+100% {color:  rgb(141, 177, 245);}
+}
+
+
+                         /* MOBILE sTYLES */
+
+@media only screen and (max-width: 600px) {
+  .aboutMe {
+    min-height: 42rem;
+   }
+
+  .aboutMeHeading {
+    font-size: 2.5rem; /* Reduce font size */
+    margin-bottom: 0.8rem; /* Adjust margin */
+    margin-top: 0.5rem;
+  }
+
+  .aboutMeIntro {
+    margin: 0 1.5rem; /* Reduce left and right margin */
+    font-size: 1.4rem; /* Adjust font size */
+  }
+
+  .digitalProduct {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,101 @@
+/* .contactDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 18rem;
+    flex-flow: column;
+} */
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0;
+    min-height: 38rem;
+    font-size: 2rem;
+    margin: 2.4rem 0 ;
+    color: #4f6383;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #3c4e6b;
+    width: 80%;
+    height: 20rem;
+    max-width: 600px;
+    background-color: #94A3B8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-top: 2rem;
+    gap: 0.2rem;
+}
+
+.nestedCard {
+    width: 60%; 
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+.contactPrompt {
+    margin-bottom: 3rem;
+}
+
+.contactItem {
+    margin: 0.5rem 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.contactItem a {
+    color: #1E293B; 
+    text-decoration: none;
+} 
+
+
+
+.contactItem a:hover {
+    color: #6780a7;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .contactSection {
+        padding: 1rem 0; /* Reduced padding */
+        font-size: 1.7rem; /* Reduced font size */
+        margin: 1.4rem 0; /* Reduced margin */
+        min-height: 42rem;
+    }
+
+    .card {
+        width: 82%; 
+        min-height: 18rem; 
+        padding: 1rem 0rem; 
+        margin-top: 1.8rem;
+        font-size: 1.2rem;
+    }
+
+    .nestedCard {
+        width: 92%; /* Increase width slightly for better visibility */
+        padding: 0.6rem 0.5rem; /* Adjust padding */
+        margin-bottom: 0rem; /* Reduce margin-bottom */
+        margin-top: 1.6rem;
+    }
+
+    .contactPrompt {
+        margin-bottom: 4rem; /* Reduced margin-bottom */
+    }
+
+    .contactItem {
+        margin: 0.3rem 0;
+        font-size: 1.2rem; 
+    }
+
+}
