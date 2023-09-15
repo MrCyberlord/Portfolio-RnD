@@ -4,9 +4,13 @@
     padding: 0.9rem 0;  /* Adjust the padding to increase the navbar height */
     justify-content: flex-end;
     position: fixed;
-    top: 0.1px;
     height: 2.5rem;
+
+    top: 0;
+    left: 0;
     width: 100%;
+    z-index: 1000; 
+    cursor: pointer;
 }
 
 .navList .regularNavbar {
@@ -43,8 +47,6 @@
 /* Hamburger styles */
 .hamburger {
     display: none;  /* initially hidden */
-    font-size: 2rem;
-    cursor: pointer;
 }
 
 
@@ -54,13 +56,13 @@
 @media only screen and (max-width: 600px) {
 
     .navList {
-        background-color: #1E293B;
+        background-color: #0c1a30;
         display: flex;
         padding: 0.2rem 0;  /* Adjust the padding to increase the navbar height */
         justify-content: flex-end;
         top: 0.1px;
         height: 3rem;
-        
+        z-index: 100;
     }
 
     .showMenu {
