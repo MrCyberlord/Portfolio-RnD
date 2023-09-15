@@ -4,4 +4,9 @@ html, body {
   height: 100%;
   background-color: #141D2C;
   color: #FFFFFF;
+
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+  
 }

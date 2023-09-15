@@ -60,9 +60,9 @@
         display: flex;
         padding: 0.2rem 0;  /* Adjust the padding to increase the navbar height */
         justify-content: flex-end;
-        top: 0.1px;
+        top: 0;
         height: 3rem;
-        z-index: 100;
+        z-index: 1000;
     }
 
     .showMenu {
