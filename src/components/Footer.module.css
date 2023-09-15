@@ -70,14 +70,14 @@
     
     .iconContainer a {
         margin-right: 0.1rem;
-        margin-left: 1rem;
-        font-size: 2.1rem;
+        margin-left: 0.5rem;
+        font-size: 2rem;
     }
     
     .copyright {
-        bottom: 41%;
+        bottom: 30%;
         left: 47%;
         transform: -50%, 50%;
-        font-size: 0.8rem; 
+        font-size: 0.5rem; 
     }
 }

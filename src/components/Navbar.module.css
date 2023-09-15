@@ -6,6 +6,7 @@
     position: fixed;
     top: 0.1px;
     height: 2.5rem;
+    width: 100%;
 }
 
 .navList .regularNavbar {
