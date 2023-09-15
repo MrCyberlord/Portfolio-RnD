@@ -1,7 +1,7 @@
 .projectCard {
     display: flex;
     flex-direction: column;
-    margin: 1rem 7rem;
+    margin: 1rem 1rem;
 }    
 
 .projectTitle {
@@ -13,9 +13,8 @@
 }
 
  .projectImage {
-    width: 100%;
-    max-width: 25rem;
-    height: 14rem;
+    width: 18rem;
+    height: 10rem;
     margin-bottom: 0.5rem;
     border: solid 0.2rem #42597e;
     border-radius: 0.5rem;

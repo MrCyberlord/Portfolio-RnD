@@ -4,8 +4,9 @@
     justify-content: space-between; 
     align-items: center;
     padding: 0rem 0;
-    position: sticky;
     bottom: 0.1px;
+    height: 4.4rem;
+    position: relative;
 }
 
 .itemContainer {
@@ -14,21 +15,23 @@
     align-items: center;
 }
 
-/* .iconContainer a {
-    margin-right: 0.5rem;
-    margin-left: 1rem;
-    font-size: 1.8rem;
-    color: #c4deff;
-    transition: transform 1s ;
-} */
-
 .iconContainer a {
     margin-right: 0.5rem;
     margin-left: 1rem;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: #c4deff;
     filter: drop-shadow(0 0 8px #c4deff); /* Add a glow effect around the icon */
-    transition: transform 1s;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 41%;
+    left: 45%;
+    transform: -50%, 50%;
+    color: #c4deff;
+    font-size: 0.8rem; 
+    filter: drop-shadow(0 0 8px #c4deff);
+
 }
 
 
@@ -59,43 +62,22 @@
     animation: bounce 1.4s infinite alternate;
 }
 
-.upIcon {
-    margin-right: 2rem;
-    font-size: 2.2rem;
-    color: #c4deff;
-    filter: drop-shadow(0 0 8px #c4deff);
-    transition: transform 1s;
-}
-
-
-
-.upIcon:hover{
-    color: #819cdc;
-    cursor: pointer;
-}
-
-.upIcon:active {
-    color: #ced9ea ;
-}
-
 
 @media only screen and (max-width: 600px) {
-
-    .footer {
-        position: fixed;
-        width: 100%;
-        height: 3rem;
+    .footer{
+        height: 4rem
     }
-
+    
     .iconContainer a {
-        font-size: 2.5rem;
-        margin-right: 0.5rem;
-        margin-left: 0.5rem;
+        margin-right: 0.1rem;
+        margin-left: 1rem;
+        font-size: 2.1rem;
     }
-
-    .upIcon {
-        font-size: 2.5rem;
-        margin-right: 0.5rem;
+    
+    .copyright {
+        bottom: 41%;
+        left: 47%;
+        transform: -50%, 50%;
+        font-size: 0.8rem; 
     }
-
 }

@@ -33,7 +33,7 @@ const Projects = () => {
   return (
     <section id="projects" className={styles.projectSection}>
       <div className={styles.title}>The Projects</div>
-      <div className={styles.projectGrid}>
+      <div className={styles.projectDisplay}>
         {projectList.map((project, index) => (
           <ProjectTemplate key={index} {...project} />
         ))}

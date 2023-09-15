@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import UpIcon from "./components/UpIcon";
 
 import "./App.css";
 
@@ -20,6 +21,7 @@ const App = () => {
         <Projects />
         <Contact />
         <Footer />
+        <UpIcon />
       </main>
     </div>
   );

@@ -15,7 +15,9 @@ const Skills = () => {
 
   return (
     <section id="skills" className={styles.skillsSection}>
-      <div className={styles.skillsHeading}>Skills</div>
+      <div className={styles.skillsHeading}>
+        <span>Skills</span>
+      </div>
       <div className={styles.skillsContainer}>
         {skillsList.map((skill, index) => (
           <div key={index} className={styles.skillItem}>

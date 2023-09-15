@@ -45,7 +45,7 @@ const Navbar = () => {
             <Link
               to="about-me"
               smooth={true}
-              offset={-70}
+              offset={-50}
               duration={1000}
               onClick={closeMenu}
             >
@@ -56,7 +56,7 @@ const Navbar = () => {
             <Link
               to="skills"
               smooth={true}
-              offset={-70}
+              offset={-50}
               duration={1000}
               onClick={closeMenu}
             >
@@ -67,7 +67,7 @@ const Navbar = () => {
             <Link
               to="projects"
               smooth={true}
-              offset={-70}
+              offset={-50}
               duration={1000}
               onClick={closeMenu}
             >

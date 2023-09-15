@@ -1,54 +1,55 @@
-
 header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 38rem;
-}
+    min-height: 42rem;
+
+    background-image: url('../ComponentImages/Header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height:100vh;
+} 
+
 
 .headerClass {
   font-size: 2rem;
 }
 
 .lineContainer {
-  text-align: left;
+  margin-bottom: 5rem;
+}
+
+.text1 {
   font-size: 3rem;
-  color: #acc7ea;
+  color: #dfecfa;
   font-weight: bolder;
+  text-shadow: 0 0 5px #1E293B, 0 0 10px #ffffff, 0 0 15px #4367af, 0 0 20px #4367af, 0 0 25px #a7b4cd, 0 0 30px #4a915e, 0 0 35px #4a915e;
+  
+}
+
+.text3 {
+  font-size: 3rem;
+  color: #c2dbc9;
+  font-weight: bolder;
+  text-shadow: 0 0 , 0 0 15px #4367af, 0 0 20px #4367af, 0 0 25px #4a915e, 0 0 30px #4367af, 0 0 35px #4367af;
 }
 
 .handIcon {
-  transform-origin: 50% 100%;
-  animation: wavingHand 1s infinite;
-  display: inline-block;
   margin-right: 1rem;
-  color: #75a2de;
 }
 
-@keyframes wavingHand {
-  0% {
-    transform: rotate(5deg);
-  }
-  50% {
-    transform: rotate(-5deg);
-  }
-  100% {
-    transform: rotate(5deg);
-  }
-}
-
-.text {
+.text2 {
     position: relative;
     font-size: 3rem;
     font-weight: bold;
     color: transparent;
-    background-image: linear-gradient(to right, #446289 50%, transparent 50%);
+    background-image: linear-gradient(to right, #f0ed90 50%, transparent 50%);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-size: 200% 100%;
     background-position: 100% 0;
-
     animation: animate 20s linear infinite alternate;
 }
 
@@ -73,24 +74,35 @@ header {
 @media only screen and (max-width: 600px) {
 
   header {
-    min-height: 42rem;
-    padding: 0 0.5rem;
-    align-items: center;
-}
+  
+    background-image: url('../ComponentImages/HeaderMobile.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height:100vh;
+  }
 
   .lineContainer {
-    font-size: 1.8rem; 
-    padding: 0rem;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5rem;
   }
 
-  .handIcon {
-    margin-right: 0.5rem; 
-    padding: 0;
-  }
+  .text1 {
+    font-size: 2rem; 
+    }
 
-  .text {
-    font-size: 1.8rem; 
-    margin-bottom:0;
-  }
+    .text2 {
+      position: relative;
+      background-image: linear-gradient(to right, #f0ed90 50%, transparent 50%);
+      font-size: 2rem;
+    }
+
+    .text3 {
+      font-size: 2rem;
+      }
+
 }
+
+  
 

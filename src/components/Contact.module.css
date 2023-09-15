@@ -1,101 +1,155 @@
-/* .contactDetails {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 18rem;
-    flex-flow: column;
-} */
-
 .contactSection {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1.5rem 0;
-    min-height: 38rem;
-    font-size: 2rem;
-    margin: 2.4rem 0 ;
-    color: #4f6383;
-}
+    min-height: 25rem;
+    padding: 0rem 0;
 
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.5rem;
-    color: #3c4e6b;
-    width: 80%;
-    height: 20rem;
-    max-width: 600px;
-    background-color: #94A3B8;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 1.5rem;
-    margin-top: 2rem;
-    gap: 0.2rem;
-}
-
-.nestedCard {
-    width: 60%; 
-    padding: 0.8rem 1rem;
-    border-radius: 5px;
+    background-image: url('../ComponentImages/Contact.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh
+  }
+  
+  .contactFormContainer {
+    width: 40rem;
+    padding: 1rem;
+    background-color: rgba(47, 68, 102, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
     text-align: center;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.2);
-}
+    margin-top: 4rem;
+  }
 
-.contactPrompt {
-    margin-bottom: 3rem;
-}
-
-.contactItem {
-    margin: 0.5rem 0;
-    font-size: 1.3rem;
-    font-weight: 700;
-}
-
-.contactItem a {
-    color: #1E293B; 
-    text-decoration: none;
+.touchHeading {
+    display: inline-block;
+    font-size: 2rem;
+    padding-bottom: 1rem;
 } 
 
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .inputGroup {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    width: 17rem;
+    height: 2rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 0.1rem solid #c9c2c2;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    color: #f8f2f2;
+    background-color: rgba(28, 41, 61, 0.5);
+  }
 
+  input::placeholder {
+    color:#94aacc;
+  }
 
-.contactItem a:hover {
-    color: #6780a7;
-}
+  textarea {
+    width: 38.5rem;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 0.1rem solid #c9c2c2;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    color: #f8f2f2;
+    background-color: rgba(28, 41, 61, 0.5);
+  }
 
+  textarea::placeholder {
+    color:#94aacc;
+  }
+  
+  button[type="submit"] {
+    background-color: rgba(30,41,59,0.5);
+    color: #94aacc;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #436bad;
+    color: #1e293b;
+  }
+  
+  @media only screen and (max-width: 600px) {
 
-@media only screen and (max-width: 600px) {
+    .contactSection { 
+        font-size: 1.7rem; 
+        min-height: 23rem;
 
-    .contactSection {
-        padding: 1rem 0; /* Reduced padding */
-        font-size: 1.7rem; /* Reduced font size */
-        margin: 1.4rem 0; /* Reduced margin */
-        min-height: 42rem;
+        background-image: url('../ComponentImages/ContactMobile.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 80vh
     }
 
-    .card {
-        width: 82%; 
-        min-height: 18rem; 
-        padding: 1rem 0rem; 
-        margin-top: 1.8rem;
+    .contactFormContainer {
+        width: 25rem;
+        height: 27rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        text-align: center;
+        align-items: center;
+        margin-top: 2rem;
+      }
+
+      .touchHeading {
+        display: inline-block;
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+        text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #4d3aa2, 0 0 20px #322365, 0 0 25px #ff00ff, 0 0 30px #ff00ff, 0 0 35px #ff00ff;
+
+    }
+
+    .inputGroup {
+        margin-bottom: 1rem;
+      }
+
+      input {
+        width: 24rem;
+        height: 1.5rem;
+        padding: 0.2rem 0;
+        margin-top: 0.2rem;
+        border-radius: 0.5rem;
         font-size: 1.2rem;
-    }
+        text-shadow: 0 0 5px #0b2036, 0 0 10px #e2dfed;
+      }
 
-    .nestedCard {
-        width: 92%; /* Increase width slightly for better visibility */
-        padding: 0.6rem 0.5rem; /* Adjust padding */
-        margin-bottom: 0rem; /* Reduce margin-bottom */
-        margin-top: 1.6rem;
-    }
+      textarea {
+        width: 24rem;
+        height: 5rem;
+        padding: 0.2rem;
+        margin-top: 0.2rem;
+        border-radius: 0.5rem;
+        font-size: 1.2rem;
+        text-shadow: 0 0 5px #0b2036, 0 0 10px #e2dfed, 0 0 15px #d662da;
 
-    .contactPrompt {
-        margin-bottom: 4rem; /* Reduced margin-bottom */
-    }
+      }
 
-    .contactItem {
-        margin: 0.3rem 0;
-        font-size: 1.2rem; 
-    }
-
+      button[type="submit"] {
+        padding: 0.3rem 0.5rem;
+        border: none;
+        border-radius: 0.2rem;
+        font-size: 1.2rem;
+        cursor: pointer;
+        margin-top: 0.5rem;
+        background-color: rgba(30,41,59);
+      }
 }

@@ -3,30 +3,32 @@
     display: flex;
     padding: 0.9rem 0;  /* Adjust the padding to increase the navbar height */
     justify-content: flex-end;
-    position: sticky;
+    position: fixed;
     top: 0.1px;
-    height: 1.7rem;
+    height: 2.5rem;
 }
 
 .navList .regularNavbar {
     display: flex;
     list-style: none;
-    margin-right: 0.5rem;
+    margin-right: 1.5rem;
 }
 
 .navList .regularNavbar li {
     margin: 0 0.5rem;   /* Adjust this value for more or less space */
+    padding: 0.25rem 0.2rem;
 }
 
 .navList .regularNavbar li a {
-    color:#1E293B ;
+    color:#1e3b1f ;
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-decoration:none;
-    padding: 0.2rem 0.5rem; /* Adjust padding to control the size of the capsules */
+    padding: 0.1rem 0.2rem; /* Adjust padding to control the size of the capsules */
     border-radius: 0.4rem; /* This creates the capsule-like rounded edges */
     background-color: #6f8cbb; 
     transition: ease 0.1s;  /* This adds a smooth transition effect when the background color changes */
+
 }  
 
 .navList .regularNavbar li a:hover {
@@ -70,7 +72,7 @@
     .hamburger {
         display:inline-flex;  /* Show hamburger icon on mobile */
         align-self: center;
-        color: #6f8cbb; 
+        color: rgba(111,140,187,0.7); 
         font-size: 3rem;
         margin-right: 0.7rem;
         margin-bottom: 0.2rem;
@@ -97,7 +99,7 @@
 
 .navList .showMenu li {
     margin: 0 0rem;   /* Adjust this value for more or less space */
-    height: 3.3rem;
+    height: 3.4rem;
     width: 14rem;
     display: flex;
     align-items: center;
@@ -111,7 +113,7 @@
     text-decoration:none;
     padding: 0.2rem 0.4rem; /* Adjust padding to control the size of the capsules */
     border-radius: 0.2rem; /* This creates the capsule-like rounded edges */
-    background-color: #6f8cbb; 
+    background-color: rgba(111,140,187,0.7);  
     transition: ease 0.1s;  /* This adds a smooth transition effect when the background color changes */
     width: 15rem;
 }

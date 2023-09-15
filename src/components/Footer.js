@@ -1,37 +1,41 @@
 import React from "react";
-import { Link } from "react-scroll";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faLinkedin,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
-import { faCircleUp } from "@fortawesome/free-regular-svg-icons";
+import { faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 import styles from "./Footer.module.css";
+import { faSquarePhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Footer = () => {
+  const email = "amanjain2691@gmail.com";
+  const phoneNumber = "+91 8087491938";
+
   return (
     <footer className={styles.footer}>
       <div className={styles.iconContainer}>
-        <a href="" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faTwitter} className={styles.icon1} />
-        </a>
-        <a href="" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faLinkedin} className={styles.icon2} />
-        </a>
         <a
-          href="https://www.instagram.com/mrcyberlord/"
+          href="https://twitter.com/MrCyberlord"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FontAwesomeIcon icon={faInstagram} className={styles.icon3} />
+          <FontAwesomeIcon icon={faTwitter} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/theamanjain/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a href={`tel:${phoneNumber}`}>
+          <FontAwesomeIcon icon={faSquarePhone} />
+        </a>
+        <a href={`mailto:${email}`}>
+          <FontAwesomeIcon icon={faEnvelope} />
         </a>
       </div>
-      <Link to="header" smooth={true} offset={-70} duration={1000}>
-        <FontAwesomeIcon icon={faCircleUp} className={styles.upIcon} />
-      </Link>
+      <div className={styles.copyright}>Copyright © 2023 Aman Jain</div>
     </footer>
   );
 };
