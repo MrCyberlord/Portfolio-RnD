@@ -83,23 +83,23 @@ header {
   }
 
   .lineContainer {
-    width: 90%;
+    width: 95%;
     margin: auto;
     padding-bottom: 5rem;
   }
 
   .text1 {
-    font-size: 2rem; 
+    font-size: 1.8rem; 
     }
 
     .text2 {
       position: relative;
       background-image: linear-gradient(to right, #f0ed90 50%, transparent 50%);
-      font-size: 2rem;
+      font-size: 1.8rem;
     }
 
     .text3 {
-      font-size: 2rem;
+      font-size: 1.8rem;
       }
 
 }

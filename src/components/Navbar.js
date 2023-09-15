@@ -78,7 +78,7 @@ const Navbar = () => {
             <Link
               to="contact"
               smooth={true}
-              offset={-70}
+              offset={-30}
               duration={1000}
               onClick={closeMenu}
             >
