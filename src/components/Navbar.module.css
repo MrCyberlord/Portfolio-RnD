@@ -75,7 +75,7 @@
     .hamburger {
         display:inline-flex;  /* Show hamburger icon on mobile */
         align-self: center;
-        color: rgba(62, 85, 123, 0.7); 
+        color: rgba(62, 85, 123, 0.5); 
         font-size: 3rem;
         margin-right: 0.7rem;
         margin-bottom: 0.2rem;
@@ -116,7 +116,7 @@
     text-decoration:none;
     padding: 0.2rem 0.4rem; /* Adjust padding to control the size of the capsules */
     border-radius: 0.2rem; /* This creates the capsule-like rounded edges */
-    background-color: rgba(120, 134, 158, 0.7);  
+    background-color: rgba(60, 79, 109, 0.7);  
     transition: ease 0.1s;  /* This adds a smooth transition effect when the background color changes */
     width: 15rem;
 }
