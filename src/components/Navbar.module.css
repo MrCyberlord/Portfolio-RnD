@@ -56,7 +56,7 @@
 @media only screen and (max-width: 600px) {
 
     .navList {
-        background-color: #0c1a30;
+        background-color: #041633;
         display: flex;
         padding: 0.2rem 0;  /* Adjust the padding to increase the navbar height */
         justify-content: flex-end;
@@ -75,7 +75,7 @@
     .hamburger {
         display:inline-flex;  /* Show hamburger icon on mobile */
         align-self: center;
-        color: rgba(111,140,187,0.7); 
+        color: rgba(62, 85, 123, 0.7); 
         font-size: 3rem;
         margin-right: 0.7rem;
         margin-bottom: 0.2rem;
