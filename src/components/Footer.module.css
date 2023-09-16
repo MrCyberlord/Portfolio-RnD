@@ -65,18 +65,19 @@
 
 @media only screen and (max-width: 600px) {
     .footer{
-        height: 4rem
+        height: 4.2rem
     }
     
     .iconContainer a {
         margin-right: 0.1rem;
         margin-left: 0.5rem;
+        margin-bottom: 0.5rem;
         font-size: 2.2rem;
     }
     
     .copyright {
         bottom: 10%;
-        left: 45%;
+        left: 40%;
         transform: -50%, 50%;
         font-size: 0.8rem; 
     }
