@@ -1,37 +1,38 @@
 .footer{
     background-color: #041633;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    /* padding: 0rem 0; */
+    /* display: flex; */
+    /* justify-content: space-between;  */
+    /* align-items: center; */
     bottom: 0;
     height: 4.4rem;
-    position: relative;
+    /* position: relative; */
 }
 
 .itemContainer {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+   
 }
 
 .iconContainer a {
+    position: relative;
+    bottom: -0.5rem;
+
     margin-right: 0.5rem;
     margin-left: 1rem;
     font-size: 2.5rem;
     color: #c4deff;
-    filter: drop-shadow(0 0 8px #c4deff); /* Add a glow effect around the icon */
+    filter: drop-shadow(0 0 8px #c4deff);
 }
 
 .copyright {
-    position: absolute;
-    bottom: 41%;
-    left: 45%;
-    transform: -50%, 50%;
+    width: fit-content;
+    position: relative;
+    bottom: 35%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
     color: #c4deff;
     font-size: 0.8rem; 
     filter: drop-shadow(0 0 8px #c4deff);
-
 }
 
 
@@ -48,9 +49,9 @@
     color: 	#819cdc;
 }
 
-.iconContainer a:active {
+/* .iconContainer a:active {
     color: #ced9ea;
-}
+} */
 
 .icon1 {
     animation: bounce 1s infinite alternate;
@@ -66,20 +67,29 @@
 @media only screen and (max-width: 600px) {
     .footer{
         height: 4.8rem;
-        align-items: unset;
     }
     
+    .itemContainer {
+ 
+    }
+
     .iconContainer a {
         margin-right: 0.1rem;
         margin-left: 0.8rem;
-        margin-bottom: 1.2rem;
         font-size: 2.5rem;
+        bottom: 0rem;
     }
+
+    /* .iconContainer a {
+        bottom: -0.5rem;
     
-    .copyright {
-        bottom: 8%;
-        left: 30%;
-        transform: -50%, 50%;
-        font-size: 0.8rem; 
+        margin-right: 0.5rem;
+        margin-left: 1rem;
+        font-size: 2.5rem;
+    } */
+
+    .copyright { 
+        bottom: 0.1rem; 
+        margin-left: 40%;
     }
 }
