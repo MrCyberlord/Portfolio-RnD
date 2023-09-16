@@ -33,6 +33,7 @@
     .projectSection {
         padding: 0rem; /* Reduce the padding slightly */
         min-height: 38rem;
+        padding-bottom: 2rem;
     }
 
     .title {

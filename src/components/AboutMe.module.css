@@ -75,24 +75,29 @@
   .aboutMe {
     min-height: 42rem;
     padding: 0rem;
+    background-image: url('../ComponentImages/AboutMeMobile.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
    }
 
   .aboutMeHeading {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     margin-bottom: 1rem;
   }
 
   .aboutMeIntro {
     margin: 0 0.5rem; 
-    font-size: 1.1rem; 
+    font-size: 1.3rem; 
     margin-bottom: 3rem;
   }
 
   .ideas {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .digitalProduct {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }
