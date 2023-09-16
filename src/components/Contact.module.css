@@ -80,6 +80,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   
   button[type="submit"]:hover {
@@ -103,7 +104,7 @@
 
     .contactFormContainer {
         width: 20rem;
-        height: 30rem;
+        min-height: 27rem;
         padding: 1rem;
         border-radius: 1rem;
         text-align: center;
