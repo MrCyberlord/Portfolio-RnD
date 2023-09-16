@@ -121,12 +121,17 @@
     }
 
     .inputGroup {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: auto;
         margin-bottom: 1rem;
+      
       }
 
       input {
         width: 18rem;
-        height: 1.5rem;
+        height: 1.6rem;
         padding: 0.2rem 0;
         margin-top: 0.2rem;
         border-radius: 0.5rem;
@@ -136,7 +141,7 @@
 
       textarea {
         width: 18rem;
-        height: 5rem;
+        height: 5.2rem;
         padding: 0.2rem;
         margin-top: 0.2rem;
         border-radius: 0.5rem;
@@ -153,5 +158,6 @@
         cursor: pointer;
         margin-top: 0.5rem;
         background-color: rgba(30,41,59);
+        margin-left: 1.5rem;
       }
 }
