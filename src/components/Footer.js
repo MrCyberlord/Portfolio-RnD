@@ -15,14 +15,14 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.iconContainer}>
         <a
-          href="https://twitter.com/MrCyberlord"
+          href="https://twitter.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faTwitter} />
         </a>
         <a
-          href="https://www.linkedin.com/in/theamanjain/"
+          href="https://www.linkedin.com/in/"
           target="_blank"
           rel="noopener noreferrer"
         >
