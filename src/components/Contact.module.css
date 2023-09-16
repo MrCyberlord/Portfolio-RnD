@@ -15,7 +15,7 @@
   .contactFormContainer {
     width: 40rem;
     padding: 1rem;
-    background-color: rgba(47, 68, 102, 0.5);
+    background-color: rgba(47, 68, 102, 0.7);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
     text-align: center;
@@ -92,6 +92,7 @@
     .contactSection { 
         font-size: 1.7rem; 
         min-height: 25rem;
+        padding-top: 2rem;
 
         background-image: url('../ComponentImages/ContactMobile.jpg');
         background-size: cover;
