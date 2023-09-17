@@ -74,7 +74,7 @@
     }
 
     .iconContainer a {
-        margin-right: 0.1rem;
+        margin-right: 0.2rem;
         margin-left: 0.8rem;
         font-size: 2.6rem;
         bottom: -0.4rem;
@@ -89,6 +89,7 @@
     } */
 
     .copyright { 
+        font-size: 0.7rem; 
         bottom: -0.7rem; 
         margin-left: 32%;
     }
