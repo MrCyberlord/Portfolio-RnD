@@ -76,6 +76,7 @@ header {
   header {
   
     background-image: url('../ComponentImages/HeaderMobile.jpg');
+    background-image: url('../ComponentImages/HeaderMobile.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

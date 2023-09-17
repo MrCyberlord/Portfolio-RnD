@@ -76,6 +76,7 @@
     min-height: 42rem;
     padding: 0rem;
     background-image: url('../ComponentImages/AboutMeMobile.jpg');
+    background-image: url('../ComponentImages/AboutMeMobile.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

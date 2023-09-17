@@ -78,6 +78,7 @@
   @media only screen and (max-width: 600px) {
     .skillsSection {
       background-image: url('../ComponentImages/SkillsMoblie.jpg');
+      background-image: url('../ComponentImages/SkillsMoblie.webp');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -91,7 +92,7 @@
       }
     
     .skillsContainer {
-      width: 20rem;
+      width: 19rem;
       height: 27rem;
       overflow: auto;
       margin-top: 2rem;
@@ -100,7 +101,7 @@
     .skillItem {
    
       margin: 1rem; 
-      padding: 0.7rem;
+      padding: 0.6rem;
       width: 5.7rem;  
       height: 5.8rem;  
       background-color: #222730;
