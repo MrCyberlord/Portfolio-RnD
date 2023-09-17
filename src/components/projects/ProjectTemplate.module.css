@@ -57,17 +57,17 @@
     }
 
     .projectTitle {
-        font-size: 1.2rem; /* Reduce the font size */
+        font-size: 1.5rem; /* Reduce the font size */
     }
 
     .projectImage {
-        width: 14rem;
-        height: 8rem;
+        width: 18rem;
+        height: 10rem;
     }
 
     .demoButton, .gitButton {
         margin-right: 1rem;
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-weight: bold;
     }
 
