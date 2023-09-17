@@ -33,24 +33,26 @@
     .projectSection {
         padding: 0rem; /* Reduce the padding slightly */
         min-height: 38rem;
+
+        padding-top: 2rem;
         padding-bottom: 2rem;
 
         background-image: url('../../ComponentImages/ProjectsMobile.jpg');
         background-image: url('../../ComponentImages/ProjectsMobile.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 100vh;
     }
 
     .title {
-        font-size: 2.5rem; /* Reduce the font size */
-        margin-bottom: 2rem; /* Adjust the margin */
+        font-size: 2rem; /* Reduce the font size */
+        margin-bottom: 1rem; /* Adjust the margin */
     }
 
-    .projectGrid {
-        grid-template-columns: 1fr; /* Make it a single column grid */
-    }
+    /* .projectGrid {
+        grid-template-columns: 1fr; 
+    } */
 
 }
 
