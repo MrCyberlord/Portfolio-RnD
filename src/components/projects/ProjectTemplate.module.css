@@ -53,7 +53,7 @@
 @media only screen and (max-width: 600px) {
     
     .projectCard {
-        margin: 0.8rem 1.4rem; /* Reduce the left and right margin */
+        margin: .3rem 1.4rem; /* Reduce the left and right margin */
     }
 
     .projectTitle {
