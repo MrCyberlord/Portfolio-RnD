@@ -1,25 +1,24 @@
- .aboutMe {
+.aboutMe {
   display: flex;
   min-height: 42rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
  
-  background-image: url('../ComponentImages/AboutMe.jpg');
+  background-image: url('../BackgroundImages/AboutMe.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
   padding-right: 25rem;
- }
+}
  
- .aboutMeHeading {
+.aboutMeHeading {
    color: #74a3e0;
    font-size: 2.5rem;
    margin-bottom: 1rem;
   font-family: cursive;
   text-shadow: 0 0 5px #74a3e0, 0 0 10px #0f3464, 0 0 15px #0d6c9c, 0 0 20px #194d92, 0 0 25px #d42ebe;
-
 }
 
 .aboutMeIntro {
@@ -32,15 +31,13 @@
     color: #aec0d5;
     margin-bottom: 1rem;
     text-shadow: 0 0 5px #74a3e0, 0 0 10px #0f3464, 0 0 15px #0d6c9c, 0 0 20px #194d92, 0 0 25px #d42ebe;
-
-  } 
+} 
 
 
 .digitalProduct {
   animation: digitalColors 3s infinite;
   font-size: 1.9rem;
   text-shadow: 0 0 5px #193251, 0 0 10px #0f3464, 0 0 15px #0d6c9c, 0 0 20px #194d92, 0 0 25px #d42ebe;
-
 }
 
 @keyframes digitalColors {
@@ -69,19 +66,20 @@
 
 }
 
-                         /* MOBILE sTYLES */
+                                        /* MOBILE sTYLES */
 
 @media only screen and (max-width: 600px) {
+
   .aboutMe {
     min-height: 42rem;
     padding: 0rem;
-    background-image: url('../ComponentImages/AboutMeMobile.jpg');
-    background-image: url('../ComponentImages/AboutMeMobile.webp');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-   }
+    background-image: url('../BackgroundImages/AboutMeMobile.jpg');
+    background-image: url('../BackgroundImages/AboutMeMobile.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
 
   .aboutMeHeading {
     font-size: 1.9rem;
@@ -101,4 +99,5 @@
   .digitalProduct {
     font-size: 1.4rem;
   }
+  
 }

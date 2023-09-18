@@ -1,15 +1,15 @@
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 42rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 42rem;
 
-    background-image: url('../ComponentImages/Header.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height:100vh;
+  background-image: url('../BackgroundImages/Header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height:100vh;
 } 
 
 
@@ -26,7 +26,6 @@ header {
   color: #dfecfa;
   font-weight: bolder;
   text-shadow: 0 0 5px #1E293B, 0 0 10px #ffffff, 0 0 15px #4367af, 0 0 20px #4367af, 0 0 25px #a7b4cd, 0 0 30px #4a915e, 0 0 35px #4a915e;
-  
 }
 
 .text3 {
@@ -52,16 +51,15 @@ header {
     background-position: 100% 0;
     animation: animate 20s linear infinite alternate;
 }
-
-  
+ 
 @keyframes animate {
     0% {
       background-position: 100% 0;
     }
-    30% {  /* Adjust this percentage based on how fast you want the reveal animation */
+    30% {
       background-position: 0 0;
     }
-    90% {  /* This will make the text stay fully visible from 20% to 80% of the animation duration */
+    90% {
       background-position: 0 0;
     }
     100% {
@@ -74,9 +72,8 @@ header {
 @media only screen and (max-width: 600px) {
 
   header {
-  
-    background-image: url('../ComponentImages/HeaderMobile.jpg');
-    background-image: url('../ComponentImages/HeaderMobile.webp');
+    background-image: url('../BackgroundImages/HeaderMobile.jpg');
+    background-image: url('../BackgroundImages/HeaderMobile.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,17 +88,17 @@ header {
 
   .text1 {
     font-size: 1.8rem; 
-    }
+  }
 
-    .text2 {
+  .text2 {
       position: relative;
       background-image: linear-gradient(to right, #f0ed90 50%, transparent 50%);
       font-size: 1.8rem;
-    }
+  }
 
-    .text3 {
-      font-size: 1.8rem;
-      }
+  .text3 {
+    font-size: 1.8rem;
+  }
 
 }
 

@@ -3,14 +3,14 @@ import styles from "./Skills.module.css";
 
 const Skills = () => {
   const skillsList = [
-    { name: "JavaScript", icon: "/Images/JavaScriptIcon.png" },
-    { name: "React", icon: "/Images/ReactIcon.png" },
-    { name: "HTML", icon: "/Images/HTMLIcon.png" },
-    { name: "CSS", icon: "/Images/CSSIcon.png" },
-    { name: "Redux", icon: "/Images/ReduxIcon.png" },
-    { name: "Git", icon: "/Images/GitIcon.png" },
-    { name: "GitHub", icon: "/Images/GitHubIcon.png" },
-    { name: "Firebase", icon: "/Images/FirebaseIcon.png" },
+    { name: "JavaScript", icon: "/SkillIconImages/JavaScriptIcon.png" },
+    { name: "React", icon: "/SkillIconImages/ReactIcon.png" },
+    { name: "HTML", icon: "/SkillIconImages/HTMLIcon.png" },
+    { name: "CSS", icon: "/SkillIconImages/CSSIcon.png" },
+    { name: "Redux", icon: "/SkillIconImages/ReduxIcon.png" },
+    { name: "Git", icon: "/SkillIconImages/GitIcon.png" },
+    { name: "GitHub", icon: "/SkillIconImages/GitHubIcon.png" },
+    { name: "Firebase", icon: "/SkillIconImages/FirebaseIcon.png" },
   ];
 
   return (

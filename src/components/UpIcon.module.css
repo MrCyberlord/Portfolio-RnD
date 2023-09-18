@@ -1,12 +1,12 @@
 .upIcon {
-    position: fixed;
-    bottom: 1.2rem;
-    right: 1.2rem;
-    z-index: 100;
-    font-size: 2.5rem;
-    color: #c4deff;
-    filter: drop-shadow(0 0 8px #c4deff);
-    animation: bounce 1s infinite alternate;
+  position: fixed;
+  bottom: 1.2rem;
+  right: 1.2rem;
+  z-index: 100;
+  font-size: 2.5rem;
+  color: #c4deff;
+  filter: drop-shadow(0 0 8px #c4deff);
+  animation: bounce 1s infinite alternate;
 } 
 
 @keyframes bounce {
@@ -19,22 +19,19 @@
 }
 
 .upIcon:hover {
-    color: #819cdc;
-    cursor: pointer;
-  }
+  color: #819cdc;
+  cursor: pointer;
+}
   
-  .upIcon:active {
-    color: #ced9ea;
-  }
+.upIcon:active {
+  color: #ced9ea;
+}
 
 
-  @media only screen and (max-width: 600px) {
-    .upIcon {
-     
-      bottom: 1.5rem;
-      right: 1rem;
-     
-      font-size: 2.5rem;
+@media only screen and (max-width: 600px) {
+  .upIcon {
+    bottom: 1.5rem;
+    right: 1rem;
+    font-size: 2.5rem;
   } 
-  
-  }
+}

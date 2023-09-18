@@ -12,7 +12,7 @@
     text-align: center;
 }
 
- .projectImage {
+.projectImage {
     width: 18rem;
     height: 10rem;
     margin-bottom: 0.5rem;
@@ -53,11 +53,11 @@
 @media only screen and (max-width: 600px) {
     
     .projectCard {
-        margin: .3rem 1.4rem; /* Reduce the left and right margin */
+        margin: .3rem 1.4rem; 
     }
 
     .projectTitle {
-        font-size: 1.5rem; /* Reduce the font size */
+        font-size: 1.5rem;
     }
 
     .projectImage {

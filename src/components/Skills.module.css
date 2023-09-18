@@ -5,7 +5,7 @@
   flex-direction: column;
   min-height: 50rem;
     
-  background-image: url('../ComponentImages/Skills.jpg');
+  background-image: url('../BackgroundImages/Skills.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,7 +19,6 @@
   font-weight: 700;
   color: #c4deff;
   text-shadow: 0 0 5px #bbb4c9, 0 0 10px #920f85, 0 0 15px #1f125d, 0 0 20px #940d96,  0 0 25px #107b3b, 0 0 30px #2b1b86, 0 0 35px #46328a;
-
 }
 
 .skillsContainer {
@@ -45,7 +44,6 @@
     border-color: #c4deff;
   }
 }
-
 
 .skillItem {
   display: flex;
@@ -75,74 +73,75 @@
   }
 
   
-  @media only screen and (max-width: 600px) {
 
-    .skillsSection {
-      background-image: url('../ComponentImages/SkillsMoblie.jpg');
-      background-image: url('../ComponentImages/SkillsMoblie.webp');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      min-height: 100vh;
-      }
+@media only screen and (max-width: 600px) {
+
+  .skillsSection {
+    background-image: url('../BackgroundImages/SkillsMoblie.jpg');
+    background-image: url('../BackgroundImages/SkillsMoblie.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
     
 
-      .skillsHeading {
-        font-size: 2.2rem;
-      }
+  .skillsHeading {
+    font-size: 2.2rem;
+  }
     
-    .skillsContainer {
-     overflow: auto;
-      scroll-behavior: smooth;
-      width: 18rem;
-      height: 25rem;
-      margin-top: 2rem;
-    }
+  .skillsContainer {
+    overflow: auto;
+    scroll-behavior: smooth;
+    width: 18rem;
+    height: 25rem;
+    margin-top: 2rem;
+  }
 
 
-    .skillItem {
-      margin: 1rem; 
-      padding: 0.5rem;
-      width: 5.6rem;  
-      height: 5.7rem;  
-      background-color: #222730;
-      box-shadow: 0 0 5px #033375, 0 0 10px #033375, 0 0 20px #c4deff;
+  .skillItem {
+    margin: 1rem; 
+    padding: 0.5rem;
+    width: 5.6rem;  
+    height: 5.7rem;  
+    background-color: #222730;
+    box-shadow: 0 0 5px #033375, 0 0 10px #033375, 0 0 20px #c4deff;
 
-      flex: 0 0 auto;
-    }
+    flex: 0 0 auto;
+  }
     
-    .skillIcon {
-      width: 3.4rem; 
-      height: 3.4rem;
-      padding-top: 0.6rem;
-    }
+  .skillIcon {
+    width: 3.4rem; 
+    height: 3.4rem;
+    padding-top: 0.6rem;
+  }
 
-    .skillName {
-      margin-top: 0.6rem;
-      font-size: 0.9rem;
-    }
+  .skillName {
+    margin-top: 0.6rem;
+    font-size: 0.9rem;
+  }
                   /* SCROLLBAR */
-::-webkit-scrollbar {
+  ::-webkit-scrollbar {
   width: 0rem;
-}
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 0.5rem #dbd41c; 
-  border-radius: 1rem;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #13ab25; 
-  border-radius: 1rem;
-  cursor: pointer;
-}
+  }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #314f81; 
-  
-}
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0.5rem #dbd41c; 
+    border-radius: 1rem;
+  }
+ 
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #13ab25; 
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #314f81; 
+  }
 }
     
   

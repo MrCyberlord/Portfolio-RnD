@@ -1,11 +1,7 @@
 .footer{
     background-color: #041633;
-    /* display: flex; */
-    /* justify-content: space-between;  */
-    /* align-items: center; */
     bottom: 0;
     height: 4.4rem;
-    /* position: relative; */
 }
 
 .itemContainer {
@@ -15,7 +11,6 @@
 .iconContainer a {
     position: relative;
     bottom: -0.5rem;
-
     margin-right: 0.5rem;
     margin-left: 1rem;
     font-size: 2.5rem;
@@ -49,9 +44,6 @@
     color: 	#819cdc;
 }
 
-/* .iconContainer a:active {
-    color: #ced9ea;
-} */
 
 .icon1 {
     animation: bounce 1s infinite alternate;
@@ -64,7 +56,9 @@
 }
 
 
+
 @media only screen and (max-width: 600px) {
+
     .footer{
         height: 4.8rem;
     }
@@ -80,17 +74,10 @@
         bottom: -0.3rem;
     }
 
-    /* .iconContainer a {
-        bottom: -0.5rem;
-    
-        margin-right: 0.5rem;
-        margin-left: 1rem;
-        font-size: 2.5rem;
-    } */
-
     .copyright { 
         font-size: 0.7rem; 
         bottom: -0.7rem; 
         margin-left: 32%;
     }
+    
 }

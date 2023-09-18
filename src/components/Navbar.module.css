@@ -1,7 +1,7 @@
 .navList {
     background-color: #1E293B;
     display: flex;
-    padding: 0.9rem 0;  /* Adjust the padding to increase the navbar height */
+    padding: 0.9rem 0; 
     justify-content: flex-end;
     position: fixed;
     height: 2.5rem;
@@ -20,7 +20,7 @@
 }
 
 .navList .regularNavbar li {
-    margin: 0 0.5rem;   /* Adjust this value for more or less space */
+    margin: 0 0.5rem;   
     padding: 0.25rem 0.2rem;
 }
 
@@ -29,22 +29,20 @@
     font-weight: bold;
     font-size: 1.5rem;
     text-decoration:none;
-    padding: 0.1rem 0.2rem; /* Adjust padding to control the size of the capsules */
-    border-radius: 0.4rem; /* This creates the capsule-like rounded edges */
+    padding: 0.1rem 0.2rem; 
+    border-radius: 0.4rem; 
     background-color: #6f8cbb; 
-    transition: ease 0.1s;  /* This adds a smooth transition effect when the background color changes */
-
+    transition: ease 0.1s;  
 }  
 
 .navList .regularNavbar li a:hover {
     color: #8599B6;
-    background-color:#274068; /* Change background color on hover */
+    background-color:#274068; 
     cursor: pointer;
 }
 
 
-
-/* Hamburger styles */
+                                                   /* Hamburger styles */
 .hamburger {
     display: none;  /* initially hidden */
 }
@@ -52,13 +50,13 @@
 
 
 
-                         /* MOBILE sTYLES */
+                                                    /* MOBILE sTYLES */
 @media only screen and (max-width: 600px) {
 
     .navList {
         background-color: #041633;
         display: flex;
-        padding: 0.2rem 0;  /* Adjust the padding to increase the navbar height */
+        padding: 0.2rem 0;  
         justify-content: flex-end;
         top: 0;
         height: 3rem;
@@ -86,50 +84,42 @@
        
     }
 
-                      /* CSS for mobile view*/
+    .navList .showMenu {
+        display: flex;
+        list-style:none;
+        margin-right: 0.2rem;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 10%;
+    }
+
+    .navList .showMenu li {
+        margin: 0 0rem;   
+        height: 3.4rem;
+        width: 14rem;
+        display: flex;
+        align-items: center;
+    }
 
 
-
-.navList .showMenu {
-    display: flex;
-    list-style:none;
-    margin-right: 0.2rem;
-
-    flex-direction: column;
-    align-items: flex-end;
-    width: 10%;
-}
-
-.navList .showMenu li {
-    margin: 0 0rem;   /* Adjust this value for more or less space */
-    height: 3.4rem;
-    width: 14rem;
-    display: flex;
-    align-items: center;
-}
-
-
-.navList .showMenu li a {
-    color:#1E293B ;
-    font-weight: bold;
-    font-size: 2.1rem;
-    text-decoration:none;
-    padding: 0.2rem 0.4rem; /* Adjust padding to control the size of the capsules */
-    border-radius: 0.2rem; /* This creates the capsule-like rounded edges */
-    background-color: rgba(60, 79, 109, 0.7);  
-    transition: ease 0.1s;  /* This adds a smooth transition effect when the background color changes */
-    width: 15rem;
-}
-  
-.navList .showMenu li a:hover {
-    color: #8599B6;
-    background-color:#274068; /* Change background color on hover */
-    cursor: pointer;
-}
-
-
-                      
-                      
+    .navList .showMenu li a {
+        color:#1E293B ;
+        font-weight: bold;
+        font-size: 2.1rem;
+        text-decoration:none;
+        padding: 0.2rem 0.4rem;
+        border-radius: 0.2rem; 
+        background-color: rgba(60, 79, 109, 0.7);  
+        transition: ease 0.1s;  /* This adds a smooth transition effect when the background color changes */
+        width: 15rem;
+    }
+    
+    .navList .showMenu li a:hover {
+        color: #8599B6;
+        background-color:#274068; 
+        cursor: pointer;
+    }                
+                        
 }
 
 
