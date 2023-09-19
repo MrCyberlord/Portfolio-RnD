@@ -1,9 +1,13 @@
 import React from "react";
+
+import AboutMeAnimation from "./AboutMeAnimation";
+
 import styles from "./AboutMe.module.css";
 
 const AboutMe = () => {
   return (
     <section id="about-me" className={styles.aboutMe}>
+      <AboutMeAnimation />
       <h1 className={styles.aboutMeHeading}>About Me</h1>
       <div className={styles.aboutMeIntro}>
         <p>
