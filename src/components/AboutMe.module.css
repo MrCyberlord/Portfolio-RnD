@@ -74,34 +74,13 @@
     min-height: 42rem;
     padding: 0rem;
 
-    /* background-image: url('../BackgroundImages/AboutMeMobile.jpg');
-    background-image: url('../BackgroundImages/AboutMeMobile.webp'); */
-    background-image: none;
-    
-    background-color: #2e0841;
+    background-image: url('../BackgroundImages/AboutMeMobile.jpg');
+    background-image: url('../BackgroundImages/AboutMeMobile.webp'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
-
-
-    position: relative;                /* Added for Animation */
   }
-
-  .container {                        /* Added for Animation */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-  }
-  
-  .content {                            /* Added for Animation */
-    position: relative;
-    z-index: 2;
-  }
-  
 
   .aboutMeHeading {
     font-size: 1.9rem;
